@@ -1,3 +1,7 @@
+body {
+  background: #626;
+}
+
 #container {
   display: flex;
   flex-direction: column;
@@ -27,12 +31,17 @@
   color: #fff;
   font-size: 24px;  
 }
+@media (max-width: 450px) {
+  .timer {
+  font-size: 16px;
+  }
+}
 
 .box {
-  background: #636;
+  background: #737;
   width: 95px;
   border-radius: 10px;
-  box-shadow: 2px 3px 6px #757;
+  box-shadow: 2px 3px 4px #767;
   text-align: center;
   padding-top: 20px;
   line-height: 10px;
